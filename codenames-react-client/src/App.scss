@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+* {
+  box-sizing:border-box;
+}
+
+.deck {
+  display:grid;
+  grid-template-columns: repeat(5,200px);
+
+  grid-column-gap:20px;
+  row-gap:20px;
+}
